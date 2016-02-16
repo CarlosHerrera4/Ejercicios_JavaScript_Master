@@ -44,8 +44,8 @@ for (i=0; i<9; i=i+2) {
 var i,j;
 for (i=0; i<10; i++) {
     for (j=0; j<10; j++) {
-        document.writeln(i)
-        document.writeln(j)
+        document.writeln('Valor de i: ',i)
+        document.writeln('Valor de j: ',j)
         document.writeln(',')
     }
 }
