@@ -12,6 +12,7 @@ var mapa = {
     'zoom' : 16
 };
 
+
 /*
   Añádele una propiedad 'autoResize' a verdadero (booleano)
 */
@@ -23,6 +24,7 @@ mapa.autoResize = true;
 */
 for (var property in mapa) {
     if (mapa.hasOwnProperty(property)) {
-        document.writeln(mapa[property])
+        document.writeln(mapa[property]);
+        document.writeln()
     }
 }
